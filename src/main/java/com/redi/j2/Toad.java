@@ -1,9 +1,11 @@
 package com.redi.j2;
 
+import com.redi.j2.utils.ConsoleColors;
+
 public class Toad extends Character {
 
     public Toad() {
-        super("Toad");
+        super(ConsoleColors.YELLOW_BRIGHT + "Toad" + ConsoleColors.RESET);
     }
 
     @Override

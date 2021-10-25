@@ -1,9 +1,11 @@
 package com.redi.j2;
 
+import com.redi.j2.utils.ConsoleColors;
+
 public class Mario extends Character implements FireballThrower, GiantStomper {
 
     public Mario() {
-        super("Mario");
+        super(ConsoleColors.RED_BRIGHT + "Mario" + ConsoleColors.RESET);
     }
 
     @Override

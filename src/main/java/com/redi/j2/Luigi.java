@@ -1,9 +1,11 @@
 package com.redi.j2;
 
+import com.redi.j2.utils.ConsoleColors;
+
 public class Luigi extends Character implements FireballThrower{
 
     public Luigi() {
-        super("Luigi");
+        super(ConsoleColors.GREEN_BRIGHT + "Luigi" + ConsoleColors.RESET);
     }
 
     @Override
