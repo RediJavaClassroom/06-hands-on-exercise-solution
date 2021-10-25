@@ -19,6 +19,9 @@ public class Main {
             if(c instanceof FireballThrower) {
                 ((FireballThrower) c).throwFireball();
             }
+            if(c instanceof GiantStomper) {
+                ((GiantStomper) c).stomp();
+            }
         }
     }
 }
