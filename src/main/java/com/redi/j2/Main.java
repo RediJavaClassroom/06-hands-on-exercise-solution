@@ -16,6 +16,9 @@ public class Main {
         for(Character c : characters) {
             c.run();
             c.jump();
+            if(c instanceof FireballThrower) {
+                ((FireballThrower) c).throwFireball();
+            }
         }
     }
 }
